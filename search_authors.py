@@ -1,4 +1,3 @@
-#utility to search through information of multiple PI's (pisearch)
 import urllib.request
 import json
 import xmltodict
@@ -190,4 +189,5 @@ def main(input_file, apikey_file, output_file, mindate = None, maxdate = None):
 
     return None
 
+# see comments on the main function to see how to use it
 main(input_file = 'example.csv', apikey_file = 'apikey.txt', output_file = 'example_output.csv', mindate = '2019', maxdate = '2022')
